@@ -1,0 +1,14 @@
+
+# postgres
+
+psql -U postgres
+psql -l
+psql -U anika
+psql -U anika -d postgres
+CREATE ROLE zayka WITH LOGIN PASSWORD 'zayka';
+CREATE DATABASE zayka OWNER zayka;
+GRANT ALL PRIVILEGES ON DATABASE zayka TO zayka;
+\du
+\l
+
+flyway disabled temporarily due to postgres version compatibility
