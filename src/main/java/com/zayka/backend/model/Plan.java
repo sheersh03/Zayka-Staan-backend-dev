@@ -1,0 +1,1 @@
+package com.zayka.backend.model; public enum Plan { WEEKLY, MONTHLY }

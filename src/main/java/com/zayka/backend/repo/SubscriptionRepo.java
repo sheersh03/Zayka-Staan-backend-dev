@@ -1,0 +1,1 @@
+package com.zayka.backend.repo; import com.zayka.backend.model.Subscription; import org.springframework.data.jpa.repository.JpaRepository; import java.util.List; public interface SubscriptionRepo extends JpaRepository<Subscription,Long>{ List<Subscription> findByChildId(Long childId);}

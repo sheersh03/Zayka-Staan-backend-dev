@@ -1,0 +1,1 @@
+package com.zayka.backend.dto; public record FeedbackRequest(Long childId, String date, Integer rating, String tags, String comment){}

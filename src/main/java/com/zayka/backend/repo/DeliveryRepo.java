@@ -1,0 +1,1 @@
+package com.zayka.backend.repo; import com.zayka.backend.model.Delivery; import org.springframework.data.jpa.repository.JpaRepository; import java.util.List; public interface DeliveryRepo extends JpaRepository<Delivery,Long>{ List<Delivery> findByDate(String date);}

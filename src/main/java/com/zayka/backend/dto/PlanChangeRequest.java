@@ -1,0 +1,1 @@
+package com.zayka.backend.dto; public record PlanChangeRequest(Long childId, String planId, String couponCode, Boolean useReferral){}

@@ -1,0 +1,1 @@
+package com.zayka.backend.repo; import com.zayka.backend.model.Selection; import org.springframework.data.jpa.repository.JpaRepository; import java.util.List; public interface SelectionRepo extends JpaRepository<Selection,Long>{ List<Selection> findByChildIdAndDate(Long childId, String date); List<Selection> findByDate(String date);}

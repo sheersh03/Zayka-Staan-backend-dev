@@ -1,0 +1,1 @@
+package com.zayka.backend.dto; public record SelectionRequest(Long childId, String date, String status){}

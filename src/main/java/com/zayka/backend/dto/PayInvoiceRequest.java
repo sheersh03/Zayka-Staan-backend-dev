@@ -1,0 +1,1 @@
+package com.zayka.backend.dto; public record PayInvoiceRequest(String method){}

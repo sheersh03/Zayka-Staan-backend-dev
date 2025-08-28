@@ -1,0 +1,1 @@
+package com.zayka.backend.repo; import com.zayka.backend.model.Invoice; import org.springframework.data.jpa.repository.JpaRepository; import java.util.List; public interface InvoiceRepo extends JpaRepository<Invoice,Long>{ List<Invoice> findBySubscriptionId(Long id);}

@@ -1,0 +1,1 @@
+package com.zayka.backend.repo; import com.zayka.backend.model.Child; import org.springframework.data.jpa.repository.JpaRepository; public interface ChildRepo extends JpaRepository<Child,Long>{}

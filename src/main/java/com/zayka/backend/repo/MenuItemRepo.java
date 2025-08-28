@@ -1,0 +1,1 @@
+package com.zayka.backend.repo; import com.zayka.backend.model.MenuItem; import org.springframework.data.jpa.repository.JpaRepository; import java.util.List; public interface MenuItemRepo extends JpaRepository<MenuItem,Long>{ List<MenuItem> findByDateBetween(String from, String to);}
