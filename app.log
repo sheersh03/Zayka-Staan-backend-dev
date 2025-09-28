@@ -1,0 +1,36 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.1)
+
+2025-09-11T14:50:24.358+05:30  INFO 11388 --- [           main] com.zayka.backend.Application            : Starting Application v0.0.1 using Java 21.0.8 with PID 11388 (/Users/anika/Documents/projectX/zaykaStaan/Zayka-Staan-backend-dev/target/zayka-backend-0.0.1.jar started by anika in /Users/anika/Documents/projectX/zaykaStaan/Zayka-Staan-backend-dev)
+2025-09-11T14:50:24.362+05:30  INFO 11388 --- [           main] com.zayka.backend.Application            : No active profile set, falling back to 1 default profile: "default"
+2025-09-11T14:50:26.362+05:30  INFO 11388 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-11T14:50:26.669+05:30  INFO 11388 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 296 ms. Found 7 JPA repository interfaces.
+2025-09-11T14:50:27.606+05:30  INFO 11388 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-09-11T14:50:27.632+05:30  INFO 11388 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-11T14:50:27.633+05:30  INFO 11388 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2025-09-11T14:50:27.687+05:30  INFO 11388 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-11T14:50:27.689+05:30  INFO 11388 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2894 ms
+2025-09-11T14:50:28.029+05:30  INFO 11388 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-11T14:50:28.129+05:30  INFO 11388 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2025-09-11T14:50:28.178+05:30  INFO 11388 --- [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-09-11T14:50:28.650+05:30  INFO 11388 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-11T14:50:28.713+05:30  INFO 11388 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-09-11T14:50:29.060+05:30  INFO 11388 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1da53f4f
+2025-09-11T14:50:29.063+05:30  INFO 11388 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-09-11T14:50:29.156+05:30  WARN 11388 --- [           main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-11T14:50:29.160+05:30  WARN 11388 --- [           main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-09-11T14:50:30.907+05:30  INFO 11388 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-11T14:50:31.090+05:30  INFO 11388 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-11T14:50:32.739+05:30  INFO 11388 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-09-11T14:50:32.772+05:30  INFO 11388 --- [           main] com.zayka.backend.Application            : Started Application in 9.159 seconds (process running for 10.19)
+2025-09-11T14:50:47.938+05:30  INFO 11388 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-09-11T14:50:47.939+05:30  INFO 11388 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-09-11T14:50:47.943+05:30  INFO 11388 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2025-09-11T14:50:49.253+05:30  INFO 11388 --- [nio-8080-exec-4] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 1035 ms
